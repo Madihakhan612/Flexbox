@@ -1,0 +1,41 @@
+*{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+#container{
+    display: flex;
+    background-color:antiquewhite;
+    justify-content: center;
+    margin-top: 400px;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    
+}
+:hover{
+    color: red;
+}
+
+
